@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Simple E-mail Feedback Form with JavaScript</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<SCRIPT LANGUAGE=JavaScript>
+<!-- Hide from older browsers.
+function check_information(){
+if((document.feedback_form.sender_name.value == "")||
+(document.feedback_form.sender_email.value == "")||
+(document.feedback_form.message.value == ""))
+{
+alert('Oops! One or more of the fields is empty. '+
+'Please fill in the missing information before clicking '+
+'the "Send the e-mail." button.');
+return false;
+} //end of true action.
+else
+return true;
+} //end of function check_information
+//-->
+</SCRIPT>
+</head>
+<body bgcolor="#FFFFFF">
+<form name="feedback_form" method="post" action="send_simpleform_wjs.php"
+onsubmit="return check_information();">
+<p>Your name: 
+<input type="text" name="sender_name" size="30">
+</p>
+<p>Your e-mail address: 
+<input type="text" name="sender_email" size="30">
+</p>
+<p>Message:<br>
+<textarea name="message" cols="30" rows="5" wrap="VIRTUAL"></textarea>
+</p>
+<p>
+<input type="submit" name="Submit" value="Send the e-mail.">
+</p>
+</form>
+
+</body>
+</html>
