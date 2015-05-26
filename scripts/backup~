@@ -1,8 +1,8 @@
 #/bin/bash
-# backup Script for Engineering Electro-magnetics Laboratory
+# backup Script for Computer Programming Lab
 
 # backup Script takes the backup of the data used by the lab.
-# Since there is no data being used by Engineering Electro-magnetics Laboratory, 
+# Since there is no data being used by Computer Programming Lab, 
 # the script does nothing. 
 
 # Usage of the script
