@@ -98,7 +98,7 @@
                 "Electronics and Communications"
             ], 
             "id": "ece08", 
-            "integration_level": 1, 
+            "integration_level": 6, 
             "name": "Engineering Electro-magnetics Laboratory", 
             "server-side": true, 
             "status": "Released", 
